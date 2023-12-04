@@ -1,0 +1,20 @@
+/* luulekogu_style.css */
+
+.parem_luule {
+
+    min-height: 100px;
+    width: 300px;
+    float: right;
+}
+
+.vasak_luule {
+    min-height: 100px;
+    width: 300px;
+    float: left;
+}
+
+.header {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}

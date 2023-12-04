@@ -2,7 +2,7 @@
 
 Info veebilehe kotha:
 
-•	Veebilehet on võimalik leida kogu jõululuuletusi
+•	Veebilehelt on võimalik leida kogu jõululuuletusi
 
 •	Lisame lehele promptid, mille saab esitada ChatGPTle, et see toodaks uusi luuletusi
 
