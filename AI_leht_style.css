@@ -1,0 +1,22 @@
+/* AI_leht_style.css */
+
+/* Image */
+.content-image {
+    text-align: center; /* Center the image */
+}
+
+.content-image img {
+    max-width: 25%; /* Adjusted max-width */
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.luule-container {
+    display: flex;
+}
+
+.vasak_luule,
+.parem_luule {
+    flex: 1;
+}
