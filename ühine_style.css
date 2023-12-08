@@ -1,0 +1,83 @@
+/*navbar*/
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+li a.active{
+    background-color: darkgreen;
+}
+
+/*tekst üldine*/
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px darkgreen;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.pexels.com/photos/1263891/pexels-photo-1263891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: black;
+}
+
+.header {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background: linear-gradient(to right, black, darkgreen);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*luuletused*/
+.parem_luule {
+
+    min-height: 100px;
+    width: 50%;
+    float: right;
+}
+
+.vasak_luule {
+    min-height: 100px;
+    width: 50%;
+    float: left;
+}
+
